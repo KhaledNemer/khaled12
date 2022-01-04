@@ -1,0 +1,107 @@
+body
+{
+font-family:sans-serif;
+ padding:0;
+ margin:0;
+ background-color: wheat;
+ direction:rtl;
+}
+.container
+{
+width:80%;
+margin: auto;
+overflow: hidden ;
+}
+.ul{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    background: rgb(15, 15, 15);
+    color: white;
+    padding-top:30px;
+    min-height: 70px;
+    border-bottom: #c9a01b  5px  solid;
+}
+header a
+{
+    color: rgb(236, 231, 231);
+    text-decoration: none;
+    font-size: 19px;
+}
+header li{
+    float: right;
+    display: inline;
+    padding:0 20px 0 20px;
+}
+header #brand
+{
+    float: right;
+}
+header #brand h1
+{
+     margin: 0%;
+    color: rgb(201, 145, 24);
+}
+header nav
+{
+    float: left;
+    margin-top: 10px;
+}
+header .current a
+{
+    color: turquoise;
+    font-weight: bold;
+}
+#newlatter
+{
+    padding: 15px;
+    color: white;
+    background:gray ;
+}
+#newlatter h1
+{
+    float: right;
+}
+#newlatter form
+{
+    float: left;
+    margin-top: 15px ;
+}
+#newlatter input[type="email"]
+{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+.button
+{
+    height: 38px;
+    background: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: dimgray;
+}
+#boxes
+{
+    margin-top: px;
+}
+.box
+{
+    float: right;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+
+}
+footer
+{
+    padding: 20px;
+    margin-top: 20px;
+    color: rgb(8, 8, 10);
+    background-color: wheat;
+    text-align: center;
+    font-weight: bol;
+    font-size: 25px;
+}
